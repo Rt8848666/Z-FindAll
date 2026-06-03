@@ -39,7 +39,7 @@ Z-FindAll 是一款专业的 Windows Prefetch 文件分析与安全日志取证�
 
 ### 方式一：下载安装包
 
-1. 访问 [Releases 页面](https://github.com/RT886/Z-FindAll/releases)
+1. 访问 ([https://github.com/RT886/Z-FindAll/releases](https://github.com/Rt8848666/Z-FindAll/releases))
 2. 下载最新版本的 `Z-FindAll-vX.X.exe`
 3. 双击运行即可（无需安装）
 
