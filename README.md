@@ -9,6 +9,8 @@
 ## 📖 简介
 
 Z-FindAll 是一款专业的 Windows Prefetch 文件分析与安全日志取证工具，专为数字取证、安全审计和系统运维人员设计。工具采用图形化界面，无需专业知识即可快速分析程序执行历史和系统登录事件。
+<img width="1437" height="932" alt="image" src="https://github.com/user-attachments/assets/10fc0c59-4b90-4892-9527-1bb3e39a0374" />
+
 
 ## ✨ 核心功能
 
@@ -17,17 +19,20 @@ Z-FindAll 是一款专业的 Windows Prefetch 文件分析与安全日志取证�
 - 解析程序执行信息：程序名称、运行次数、最后运行时间
 - 提取关联文件路径：显示程序运行时访问的所有文件
 - 支持自定义目录扫描
+<img width="1442" height="939" alt="image" src="https://github.com/user-attachments/assets/cc14e44b-8a0e-4128-8583-60b4a0e07c6e" />
 
 ### 🔐 安全日志分析
 - 解析 Windows 安全事件日志（Security.evtx）
 - 检测 RDP 远程登录事件（EID 4624/4625）
 - 识别登录成功/失败记录
 - 提取登录用户、来源 IP、登录时间等关键信息
+<img width="1442" height="939" alt="image" src="https://github.com/user-attachments/assets/0c6c1fb1-f7d8-449c-884d-9d57536bc84b" />
 
 ### 🔎 全文搜索
 - 支持关键字模糊搜索
 - 跨所有字段检索（程序名、文件路径、事件 ID 等）
 - 实时高亮显示匹配结果
+<img width="1442" height="939" alt="image" src="https://github.com/user-attachments/assets/a09c7575-0cd1-4c47-9e3e-d6a9edd8bc3a" />
 
 ### 🎨 用户体验
 - 清爽的浅蓝色主题 + 深色模式切换
