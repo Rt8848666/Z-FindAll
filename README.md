@@ -107,13 +107,7 @@ Z-FindAll 是一款专业的 Windows Prefetch 文件分析与安全日志取证�
 | .NET Framework | Windows 自带（无需单独安装） |
 | 磁盘空间 | 至少 50MB 可用空间 |
 
-### 可选依赖
 
-如需解析安全日志（.evtx 文件），需要安装 python-evtx 库：
-
-```bash
-pip install python-evtx
-```
 
 > 💡 **提示**：已打包的 EXE 已包含所有依赖，无需额外安装。
 
@@ -156,9 +150,6 @@ Z-FindAll/
 ### Q: 提示"拒绝访问"？
 A: 右键点击 EXE，选择"以管理员身份运行"
 
-### Q: 安全日志页面显示"未安装依赖库"？
-A: 已打包的 EXE 已包含依赖。如自行打包，请确保安装 `python-evtx`
-
 ### Q: Prefetch 目录为空？
 A: 检查系统是否启用了 Prefetch 功能（某些 SSD 优化可能禁用）
 
@@ -167,10 +158,6 @@ A: 调整屏幕分辨率至 1280x800 或更高，或调整 DPI 缩放
 
 ### Q: 如何反馈问题？
 A: 在 GitHub 仓库提交 [Issue](https://github.com/RT886/Z-FindAll/issues)
-
-## 📄 许可证
-
-本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
 
 ## 📬 联系方式
 
