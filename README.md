@@ -234,7 +234,7 @@ A: 安全日志文件可能很大（数百MB），解析需要 1-2 分钟，请�
 A: 点击"⏹ 取消"按钮中断扫描，或缩小时间范围后重试
 
 ### Q: 如何反馈问题？
-A: 在 GitHub 仓库提交 [Issue](https://github.com/RT886/Z-FindAll/issues)
+A: 在 GitHub 仓库提交 [Issue](https://github.com/Rt8848666/Z-FindAll/issues)
 
 ## 📬 联系方式
 
