@@ -239,8 +239,8 @@ A: 在 GitHub 仓库提交 [Issue](https://github.com/Rt8848666/Z-FindAll/issues
 ## 📬 联系方式
 
 - 作者：RT886
-- 项目地址：https://github.com/RT886/Z-FindAll
-- 问题反馈：https://github.com/RT886/Z-FindAll/issues
+- 项目地址：https://github.com/Rt8848666/Z-FindAll
+- 问题反馈：https://github.com/Rt8848666/Z-FindAll/issues
 
 ## 🙏 致谢
 
