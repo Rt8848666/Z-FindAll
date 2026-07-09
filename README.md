@@ -9,7 +9,7 @@
 ## 📖 简介
 
 Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹分析、安全日志审计、敏感文件扫描与计划任务风险评估于一体，专为数字取证、安全审计和系统运维人员设计。工具采用图形化界面，无需专业知识即可快速完成全量取证分析。
-<img width="1437" height="932" alt="image" src="https://github.com/user-attachments/assets/10fc0c59-4b90-4892-9527-1bb3e39a0374" />
+<img width="1442" height="938" alt="image" src="https://github.com/user-attachments/assets/d400d952-6339-4165-80b4-492afc86326b" />
 
 
 ## ✨ 核心功能
@@ -43,6 +43,8 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
 - **右键"查看脚本详情"**可查看完整脚本内容（深色代码高亮）
 - 支持一键复制脚本内容
 - 自动保存扫描结果为 JSON 缓存
+  <img width="1437" height="938" alt="image" src="https://github.com/user-attachments/assets/f7b8c907-1954-44ef-8d8f-943e5c4bc54a" />
+
 
 ### 📂 敏感目录扫描
 - 扫描 `%TEMP%`、`%USERPROFILE%`、`C:\ProgramData` 等敏感目录
@@ -53,6 +55,7 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
 - **读取缓存**按钮可快速加载最近一次扫描结果
 - **右键"打开文件位置"**可在资源管理器中定位文件
 - 自动保存扫描结果为 JSON 缓存
+<img width="1442" height="938" alt="image" src="https://github.com/user-attachments/assets/15cf9685-7480-4485-b903-d75d87843eb6" />
 
 ### 📋 计划任务扫描
 - 通过 `schtasks` 全量枚举系统中所有 Windows 计划任务
@@ -60,9 +63,14 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
 - 兼容旧版 `.job` 任务发现
 - **自动风险分析**：检测可疑路径、恶意程序特征、Base64 编码参数、隐藏窗口执行等 10+ 类风险指标
 - 风险等级分级：信息 / 低风险 / 中风险 / 高风险 / 严重
+  <img width="1732" height="938" alt="image" src="https://github.com/user-attachments/assets/2a2bc5b4-0d32-45d8-b60b-56b292793385" />
+
 - **可交互风险报告**：顶部统计卡片支持点击切换过滤，点击任意风险级别即可筛出对应任务
 - 支持分析报告 JSON 导出与缓存读取
+  <img width="1452" height="838" alt="image" src="https://github.com/user-attachments/assets/25b7ea80-f0ac-4d0d-b625-d6ad68608452" />
 - **详情弹窗**：双击任务可查看全部字段完整内容，执行命令和起始于字段不截断
+  <img width="852" height="688" alt="image" src="https://github.com/user-attachments/assets/230a1ff6-c7c3-4d02-8955-814403c35604" />
+
 
 ### 🔎 全文搜索
 - 支持关键字模糊搜索，跨所有数据源检索
@@ -73,11 +81,12 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
   - 计划任务 → 查看详情
   - 敏感目录 → 打开文件位置
 - 自动加载所有 JSON 缓存文件
-<img width="1442" height="939" alt="image" src="https://github.com/user-attachments/assets/a09c7575-0cd1-4c47-9e3e-d6a9edd8bc3a" />
+<img width="1732" height="938" alt="image" src="https://github.com/user-attachments/assets/0cdb8769-7463-408a-ac8a-a6eb4f307488" />
 
 ### 🎨 用户体验
 - 清爽的浅蓝色主题 + 深色模式切换
-- 固定窗口尺寸 1440x900，适配主流显示器
+- 最小窗口尺寸 1440x900，支持拖拽边框放大、窗口最大化、**F11 全屏切换**
+- 所有详情弹窗支持自由缩放，方便查看完整内容
 - 一键复制所有数据（单元格/行/全部）
 - 所有扫描结果自动保存为 JSON 格式
 - 桌面/任务栏/窗口左上角三处图标统一
@@ -151,6 +160,7 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
 | 快捷键 | 功能 |
 |--------|------|
 | `Enter` | 在搜索框中触发搜索 |
+| `F11` | 切换全屏 / 窗口模式 |
 | `Ctrl+C` | 复制当前选中内容 |
 
 ### 数据导出
@@ -171,7 +181,7 @@ Z-FindAll 是一款专业的 Windows 取证分析工具，集程序执行痕迹�
 |------|------|
 | 操作系统 | Windows 10 / 11 |
 | 权限 | 管理员权限（访问 Prefetch 目录和安全日志必需） |
-| 屏幕分辨率 | 最低 1440x900 |
+| 屏幕分辨率 | 最低 1440x900（支持自由放大至任意尺寸） |
 | 磁盘空间 | 至少 50MB 可用空间 |
 
 > 💡 **提示**：已打包的 EXE 已包含所有依赖，无需额外安装。
@@ -215,7 +225,7 @@ A: 右键点击 EXE，选择"以管理员身份运行"
 A: 检查系统是否启用了 Prefetch 功能（某些 SSD 优化可能禁用）
 
 ### Q: 窗口显示不完整？
-A: 调整屏幕分辨率至 1440x900 或更高，或调整 DPI 缩放
+A: 窗口最小尺寸为 1440x900，如需更大显示区域可拖拽边框放大、点击最大化或按 F11 进入全屏模式
 
 ### Q: 安全日志扫描很慢？
 A: 安全日志文件可能很大（数百MB），解析需要 1-2 分钟，请耐心等待
